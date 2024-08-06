@@ -1,0 +1,26 @@
+.card_wrapper {
+  padding: 5px;
+  display: flex;
+  gap: 4px;
+  margin: 15px;
+  justify-content: space-between;
+  max-width: 250px;
+  align-items: center;
+  border: 2px solid navy;
+  border-radius: 8px;
+}
+
+.remove_button {
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(103, 103, 223);
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(134, 134, 223);
+  }
+  &:active {
+    background-color: rgb(92, 92, 226);
+  }
+}
